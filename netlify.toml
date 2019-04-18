@@ -1,6 +1,6 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+publish = "public/"
+command = "hexo generate"
 
 [context.production.environment]
 HUGO_VERSION = "0.55.2"
